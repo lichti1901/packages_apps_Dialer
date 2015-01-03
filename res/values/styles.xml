@@ -16,7 +16,7 @@
   -->
 <resources>
     <style name="DialtactsTheme"
-           parent="android:Theme.Material.Light">
+           parent="android:Theme.Material">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
         <item name="android:windowActionBarOverlay">true</item>
@@ -81,13 +81,13 @@
 
     <!-- Action bar overflow menu icon. -->
     <style name="DialtactsActionBarOverflow"
-           parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+           parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_overflow_menu</item>
     </style>
 
     <!-- Action bar overflow menu icon.  White with no shadow. -->
     <style name="DialtactsActionBarOverflowWhite"
-           parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+           parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/overflow_menu</item>
     </style>
 
@@ -146,13 +146,13 @@
 
     <!-- Text style for tabs. -->
     <style name="DialtactsActionBarTabTextStyle"
-           parent="android:style/Widget.Material.Light.ActionBar.TabText">
+           parent="android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
     </style>
 
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
     </style>
 
@@ -174,7 +174,7 @@
 
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
     since the Alert dialog is private. They are identical anyway. -->
-    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">@color/dialtacts_theme_color</item>
     </style>
 </resources>
